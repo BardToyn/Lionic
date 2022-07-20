@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --white-clr: #FFF;
     --gray-clr: #787878;
@@ -163,6 +167,10 @@ ul {
     padding: 35px 10%;
     background-color: var(--white-clr);
     border-bottom: 1px solid var(--border-clr);
+}
+
+.header__burger-container {
+    display: none;
 }
 
 .logo {
